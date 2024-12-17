@@ -33,7 +33,7 @@
         infoDescripcion.textContent = elemento.descripcion;
 
     } catch (error) {
-        console.error('Error:', error.message);
+        //console.error('Error:', error.message);
         const infoDescripcion = document.querySelector('.Info p');
         if (infoDescripcion) {
             infoDescripcion.textContent = 'Error al cargar los detalles. Inténtalo de nuevo.';
